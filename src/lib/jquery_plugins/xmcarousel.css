@@ -1,0 +1,54 @@
+.xmcarousel {
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+}
+.xmcarousel ul {
+	list-style: none;
+	margin: 20px auto;
+}
+
+.xmcarousel ul li {
+	
+	display: none;
+}
+.xmcarousel .pages {
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	bottom: 0;
+	background: #000;
+	text-align: center;
+}
+.xmcarousel .pages i {
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	border-radius: 10px;
+	background: #fff;
+	margin:5px;
+}
+
+.xmcarousel .pages i.current {
+	background: #f00;
+}
+
+.xmcarousel .prev, .xmcarousel .next {
+	width: 45px;
+	height: 100px;
+	border-radius: 20px;
+	background: black;
+	opacity: 0.5;
+	color: yellow;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	margin:auto;
+	text-align: center;
+	line-height: 100px;
+	font-size:40px;
+	cursor: pointer;
+}
+.xmcarousel .next {
+	right: 0;
+}
